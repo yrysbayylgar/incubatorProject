@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185FBF082DBFF9ED004CAA34 /*  Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185FBF072DBFF9ED004CAA34 /*  Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185FBEE22DBFE803004CAA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185FBEC82DBFE800004CAA34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185FBECF2DBFE801004CAA34;
+			remoteInfo = "WMT-Frontend";
+		};
+		185FBEEC2DBFE803004CAA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185FBEC82DBFE800004CAA34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185FBECF2DBFE801004CAA34;
+			remoteInfo = "WMT-Frontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185FBED02DBFE801004CAA34 /* WMT-Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WMT-Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FBEE12DBFE803004CAA34 /* WMT-FrontendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WMT-FrontendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FBEEB2DBFE803004CAA34 /* WMT-FrontendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WMT-FrontendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FBF072DBFF9ED004CAA34 /*  Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = " Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		185FBED22DBFE801004CAA34 /* WMT-Frontend */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WMT-Frontend";
+			sourceTree = "<group>";
+		};
+		185FBEE42DBFE803004CAA34 /* WMT-FrontendTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WMT-FrontendTests";
+			sourceTree = "<group>";
+		};
+		185FBEEE2DBFE803004CAA34 /* WMT-FrontendUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WMT-FrontendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185FBECD2DBFE801004CAA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEDE2DBFE803004CAA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEE82DBFE803004CAA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185FBEC72DBFE800004CAA34 = {
+			isa = PBXGroup;
+			children = (
+				185FBF072DBFF9ED004CAA34 /*  Info.plist */,
+				185FBED22DBFE801004CAA34 /* WMT-Frontend */,
+				185FBEE42DBFE803004CAA34 /* WMT-FrontendTests */,
+				185FBEEE2DBFE803004CAA34 /* WMT-FrontendUITests */,
+				185FBED12DBFE801004CAA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185FBED12DBFE801004CAA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185FBED02DBFE801004CAA34 /* WMT-Frontend.app */,
+				185FBEE12DBFE803004CAA34 /* WMT-FrontendTests.xctest */,
+				185FBEEB2DBFE803004CAA34 /* WMT-FrontendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185FBECF2DBFE801004CAA34 /* WMT-Frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FBEF52DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-Frontend" */;
+			buildPhases = (
+				185FBECC2DBFE801004CAA34 /* Sources */,
+				185FBECD2DBFE801004CAA34 /* Frameworks */,
+				185FBECE2DBFE801004CAA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				185FBED22DBFE801004CAA34 /* WMT-Frontend */,
+			);
+			name = "WMT-Frontend";
+			packageProductDependencies = (
+			);
+			productName = "WMT-Frontend";
+			productReference = 185FBED02DBFE801004CAA34 /* WMT-Frontend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185FBEE02DBFE803004CAA34 /* WMT-FrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FBEF82DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-FrontendTests" */;
+			buildPhases = (
+				185FBEDD2DBFE803004CAA34 /* Sources */,
+				185FBEDE2DBFE803004CAA34 /* Frameworks */,
+				185FBEDF2DBFE803004CAA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185FBEE32DBFE803004CAA34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				185FBEE42DBFE803004CAA34 /* WMT-FrontendTests */,
+			);
+			name = "WMT-FrontendTests";
+			packageProductDependencies = (
+			);
+			productName = "WMT-FrontendTests";
+			productReference = 185FBEE12DBFE803004CAA34 /* WMT-FrontendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185FBEEA2DBFE803004CAA34 /* WMT-FrontendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FBEFB2DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-FrontendUITests" */;
+			buildPhases = (
+				185FBEE72DBFE803004CAA34 /* Sources */,
+				185FBEE82DBFE803004CAA34 /* Frameworks */,
+				185FBEE92DBFE803004CAA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185FBEED2DBFE803004CAA34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				185FBEEE2DBFE803004CAA34 /* WMT-FrontendUITests */,
+			);
+			name = "WMT-FrontendUITests";
+			packageProductDependencies = (
+			);
+			productName = "WMT-FrontendUITests";
+			productReference = 185FBEEB2DBFE803004CAA34 /* WMT-FrontendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185FBEC82DBFE800004CAA34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					185FBECF2DBFE801004CAA34 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					185FBEE02DBFE803004CAA34 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 185FBECF2DBFE801004CAA34;
+					};
+					185FBEEA2DBFE803004CAA34 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 185FBECF2DBFE801004CAA34;
+					};
+				};
+			};
+			buildConfigurationList = 185FBECB2DBFE800004CAA34 /* Build configuration list for PBXProject "WMT-Frontend" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185FBEC72DBFE800004CAA34;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 185FBED12DBFE801004CAA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185FBECF2DBFE801004CAA34 /* WMT-Frontend */,
+				185FBEE02DBFE803004CAA34 /* WMT-FrontendTests */,
+				185FBEEA2DBFE803004CAA34 /* WMT-FrontendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185FBECE2DBFE801004CAA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FBF082DBFF9ED004CAA34 /*  Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEDF2DBFE803004CAA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEE92DBFE803004CAA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185FBECC2DBFE801004CAA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEDD2DBFE803004CAA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FBEE72DBFE803004CAA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185FBEE32DBFE803004CAA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185FBECF2DBFE801004CAA34 /* WMT-Frontend */;
+			targetProxy = 185FBEE22DBFE803004CAA34 /* PBXContainerItemProxy */;
+		};
+		185FBEED2DBFE803004CAA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185FBECF2DBFE801004CAA34 /* WMT-Frontend */;
+			targetProxy = 185FBEEC2DBFE803004CAA34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		185FBEF32DBFE803004CAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185FBEF42DBFE803004CAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		185FBEF62DBFE803004CAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WMT-Frontend/WMT_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WMT-Frontend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		185FBEF72DBFE803004CAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WMT-Frontend/WMT_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WMT-Frontend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		185FBEF92DBFE803004CAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMT-Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WMT-Frontend";
+			};
+			name = Debug;
+		};
+		185FBEFA2DBFE803004CAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMT-Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WMT-Frontend";
+			};
+			name = Release;
+		};
+		185FBEFC2DBFE803004CAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WMT-Frontend";
+			};
+			name = Debug;
+		};
+		185FBEFD2DBFE803004CAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yrysbay.WMT-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WMT-Frontend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185FBECB2DBFE800004CAA34 /* Build configuration list for PBXProject "WMT-Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FBEF32DBFE803004CAA34 /* Debug */,
+				185FBEF42DBFE803004CAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FBEF52DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FBEF62DBFE803004CAA34 /* Debug */,
+				185FBEF72DBFE803004CAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FBEF82DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-FrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FBEF92DBFE803004CAA34 /* Debug */,
+				185FBEFA2DBFE803004CAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FBEFB2DBFE803004CAA34 /* Build configuration list for PBXNativeTarget "WMT-FrontendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FBEFC2DBFE803004CAA34 /* Debug */,
+				185FBEFD2DBFE803004CAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185FBEC82DBFE800004CAA34 /* Project object */;
+}
